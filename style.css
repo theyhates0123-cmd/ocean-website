@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4fbff;
+  color: #033b4a;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+header p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.btn {
+  background: white;
+  color: #0077b6;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+/* SERVICES */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #033b4a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
